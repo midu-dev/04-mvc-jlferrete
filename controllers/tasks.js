@@ -1,7 +1,7 @@
 // importar modelo
 
 export const getAllTasks = (req, res) => {
-  const tasks = // ????
+  const tasks = TaskModel.getAllTasks()
   res.json(tasks)
 }
 

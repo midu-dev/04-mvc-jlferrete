@@ -15,9 +15,8 @@ let currentId = 1
  * @class
  */
 
-/**
- * export class TaskModel {
- *
+ export class TaskModel {
+ /*
  *
   /**
    * Fetches all tasks.
@@ -25,6 +24,10 @@ let currentId = 1
    * @static
    * @returns {Array<Object>} Array of tasks.
    */
+
+  static getAllTasks () {
+   return tasks
+ }
 
 /**
    * Adds a new task to the list.
